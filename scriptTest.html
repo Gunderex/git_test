@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        function add7(numberA) {
+            return numberA + 7
+        }
+
+        console.log(add7(4))
+
+        function multiply(numberM) {
+            return numberM * numberM
+        }
+
+        console.log(multiply(5))
+
+        
+        function capitalize(word) {
+            let firstletter = word.charAt(0)
+            let restofletters = word.substring(1)
+            let firstlettercap = firstletter.toUpperCase()
+            let restoflettersfixed = restofletters.toLowerCase()
+            let wordreturn = firstlettercap + restoflettersfixed
+            return wordreturn
+        }
+
+        console.log(capitalize('heLlO'))
+
+    </script>
+
+</body>
+</html>
